@@ -3,13 +3,15 @@
 
 
 * {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
 }
 
 body {
+    margin-top: 10px;
+
     display: flex;
 
     align-items: center;
@@ -21,8 +23,31 @@ body {
     background: #2e2e2e;
 }
 
+div#parallelogram {
+    margin-top: 10px;
+
+    background: #00acd7;
+
+    width: 1000px;
+
+    height: 870px;
+
+    max-width: 65vw;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 15px;
+
+    transform: skew(6deg, 3deg);
+
+    position: absolute;
+
+    z-index: -1;
+}
+
 section {
-    
+    display: flex;
+
     background: #fff;
 
     padding: 30px 5px; /* 30px superior e inferior -  5px para os lados */
@@ -65,10 +90,6 @@ fieldset:nth-child(7) {
 }
 
 fieldset:nth-child(8) {
-    display: flex;
-}
-
-fieldset:nth-child(9) {
     display: flex;
 }
 
@@ -156,4 +177,50 @@ fieldset:nth-child(9) {
 
 button:hover{
     opacity: 0.85;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+
+    margin: auto 40px; /*auto - Centraliza horizontalmente o elemento em seu conteiner */
+}
+
+@media only screen and (max-width: 1080px) {
+   
+    div#parallelogram {
+        height: 850px;
+    }
+
+    section img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    div#parallelogram {
+        display: none;
+    }
+
+    section {
+        min-width: 95vw;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    fieldset:nth-child(4),
+    fieldset:nth-child(5),
+    fieldset:nth-child(6),
+    fieldset:nth-child(7),
+    fieldset:nth-child(8),
+    fieldset:nth-child(9) {
+        flex-direction: column;
+    }
+
+    fieldset:nth-child(9) button {
+        width: 100%;
+        margin-left: 0;
+    }
 }
