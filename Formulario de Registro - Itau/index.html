@@ -11,11 +11,11 @@
 <body>
     <div id="parallelogram"></div>
     <section>
-        <form action="#" method="POST">
+        <form id="formulario" method="post"> 
             <h1>Criar usuário</h1>
             <fieldset> <!--Colocar um ao lado do outro-->
                 <div class="container">
-                    <input type="text" required name="name" autofocus>
+                    <input type="text" required name="nome" autofocus>
                     <label>Nome</label> 
                 </div>
             </fieldset>
@@ -32,7 +32,7 @@
 
             <fieldset>
                 <div class="container">
-                    <input type="text" name="rg" autofocus>
+                    <input type="text"  name="rg" autofocus>
                     <label>RG</label> 
                 </div>
                 <div class="container">
@@ -43,34 +43,34 @@
 
             <fieldset> <!--Colocar um ao lado do outro-->
                 <div class="container">
-                    <input type="text" required name="endereco" autofocus>
-                    <label>Endereço</label> 
+                    <input type="text" required name="rua" id="rua" autofocus>
+                    <label for="rua">Endereço</label> 
                 </div>
                 <div class="container">
-                    <input type="integer" required name="numero" autofocus>
+                    <input type="text" required name="numero" autofocus>
                     <label>Numero</label> 
                 </div>
             </fieldset>
 
             <fieldset>
                 <div class="container">
-                    <input type="text" required name="bairro" autofocus>
-                    <label>Bairro</label> 
+                    <input type="text" required name="bairro" id="bairro" autofocus>
+                    <label for="bairro">Bairro</label> 
                 </div>
                 <div class="container">
-                    <input type="text" name="cep" autofocus>
-                    <label>Cep</label> 
+                    <input type="text" required name="cep" id="cep" maxlength="8" autofocus>
+                    <label for="cep">Cep</label> 
                 </div>
             </fieldset>
 
             <fieldset>
                 <div class="container">
-                    <input type="text" name="cidade" autofocus>
-                    <label>Cidade</label> 
+                    <input type="text" name="cidade" id="cidade" autofocus>
+                    <label for="cidade">cidade</label> 
                 </div>
                 <div class="container">
-                    <input type="text" name="estado" autofocus>
-                    <label>Estado</label> 
+                    <input type="text" name="estado" id="estado" autofocus>
+                    <label for="estado">Estado</label> 
                 </div>
             </fieldset>
 
@@ -86,10 +86,13 @@
             </fieldset>
 
             <fieldset>
-                <button class="button">Criar Cadastro</button>
+                <button class="button" type="submit" value="Add todo">Criar Cadastro</button>
             </fieldset>
         </form>
         <img src="img/user.svg">
     </section>
+
+    <script src="js/script.js"></script>    
+    <script src="js/post.js"></script>
 </body>
 </html>
