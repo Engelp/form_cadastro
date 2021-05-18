@@ -55,7 +55,7 @@
 
 <br />
 
-* Site da W3schools.com
+* Site da W3schools.com [ir para o site] (https://www.w3schools.com/)
 
 <br />
 
