@@ -15,6 +15,25 @@
 <br />
 
 * Construção da parte lógica
+* Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
+
+<br />
+
+## 💼 <b> Regras de negócio </b>
+
+<br />
+
+* Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
+
+<br />
+
+## 🧠 <b> Extras </b>
+
+<br />
+
+* O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Feminino
+* Usar template aplicado nas aulas
+* Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas
 
 <br />
 
@@ -47,11 +66,11 @@
 
 
 
-* Formulario com Html e Css [Responsivo] [ver video](https://www.youtube.com/watch?v=Ph-60-pkAQM) 
+* Formulário com Html e Css [Responsivo] [ver video](https://www.youtube.com/watch?v=Ph-60-pkAQM) 
 
 <br />
 
-* Consulta CEP com HTML, CSS e Javascript [ver video](https://www.youtube.com/watch?v=fxnJffrnrdY)
+* Consultar CEP com HTML, CSS e Javascript [ver video](https://www.youtube.com/watch?v=fxnJffrnrdY)
 
 <br />
 
@@ -59,7 +78,7 @@
 
 <br />
 
-* Mascara para os campos telefone, cep e cpf [ir para o site](http://codigododia.blogspot.com/2019/05/mascara-para-cpf-cnpj-cep-telefone-data.html)
+* Máscara para os campos telefone, cep e cpf [ir para o site](http://codigododia.blogspot.com/2019/05/mascara-para-cpf-cnpj-cep-telefone-data.html)
 
 <br />
 
