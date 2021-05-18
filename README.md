@@ -66,28 +66,28 @@
 
 
 
-* Formulário com Html e Css [Responsivo] [ver video](https://www.youtube.com/watch?v=Ph-60-pkAQM) 
+* Formulário com Html e Css [Responsivo] [Ver video](https://www.youtube.com/watch?v=Ph-60-pkAQM) 
 
 <br />
 
-* Consultar CEP com HTML, CSS e Javascript [ver video](https://www.youtube.com/watch?v=fxnJffrnrdY)
+* Consultar CEP com HTML, CSS e Javascript [Ver video](https://www.youtube.com/watch?v=fxnJffrnrdY)
 
 <br />
 
-* Site da W3schools.com [ir para o site](https://www.w3schools.com/)
+* Site da W3schools.com [Ir para o site](https://www.w3schools.com/)
 
 <br />
 
-* Máscara para os campos telefone, cep e cpf [ir para o site](http://codigododia.blogspot.com/2019/05/mascara-para-cpf-cnpj-cep-telefone-data.html)
+* Máscara para os campos telefone, cep e cpf [Ir para o site](http://codigododia.blogspot.com/2019/05/mascara-para-cpf-cnpj-cep-telefone-data.html)
 
 <br />
 
-* Como fazer um readme no GitHub para seu PROJETO [ver video](https://www.youtube.com/watch?v=LDLK5OJw3io)
+* Como fazer um readme no GitHub para seu PROJETO [Ver video](https://www.youtube.com/watch?v=LDLK5OJw3io)
 
 <br />
 
-* How to use javascript to send a post request using the fetch api. [ver video](https://www.youtube.com/watch?v=Fek_oJM_s4I&t=324s)
+* How to use javascript to send a post request using the fetch api. [Ver video](https://www.youtube.com/watch?v=Fek_oJM_s4I&t=324s)
 
 <br />
 
-* Site da hookbin.com para fazer captura e inspeção HTTP request
+* Site da hookbin.com para fazer captura e inspeção HTTP request   [Ir para o site](https://hookbin.com/)
