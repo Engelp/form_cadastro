@@ -1,4 +1,4 @@
-const url = "https://hookb.in/G9jbwj0gQpSWGGeQY3R0";
+const url = "https://hookb.in/NOwByJz0B2fWZZpRV6ry";
 const formEl = document.querySelector("form");
 formEl.addEventListener("submit", async (e) => {
     e.preventDefault();

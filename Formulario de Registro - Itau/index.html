@@ -21,12 +21,13 @@
             </fieldset>
 
             <fieldset> <!--Colocar um ao lado do outro-->
-                <div class="sexo">
-                    <h3>Sexo</h3>
-                    <input type="radio" name="sexo" id="homem">
-                    <label>Homem</label>
-                    <input type="radio" name="sexo" id="mulher">
-                    <label>Mulher</label>
+                <div class="select">
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo">
+                     <option value="0">-</option>
+                     <option value="M">Masculino</option>
+                     <option value="F">Feminino</option>
+                    </select>
                 </div>
             </fieldset>
 
@@ -36,7 +37,7 @@
                     <label>RG</label> 
                 </div>
                 <div class="container">
-                    <input type="integer" required name="cpf" autofocus>
+                    <input type="integer" required name="cpf" id="cpf_digitado" onkeydown="javascript: mascaraCPF( this, maskCPF );" autofocus>
                     <label>CPF</label> 
                 </div>
             </fieldset>
@@ -76,11 +77,11 @@
 
             <fieldset>
                 <div class="container">
-                    <input type="text" name="telefone_fixo" autofocus>
+                    <input type="text" name="telefone_fixo" maxlength="14" onKeyPress="MascaraGenerica(this, 'TELEFONE FIXO');" autofocus>
                     <label>Telefone fixo</label> 
                 </div>
                 <div class="container">
-                    <input type="text" required name="telefone_celular" autofocus>
+                    <input type="text" required name="telefone_celular" maxlength="15" onKeyPress="MascaraGenerica(this, 'TELEFONE CELULAR');" autofocus>
                     <label>Telefone celular</label> 
                 </div>
             </fieldset>
@@ -89,10 +90,12 @@
                 <button class="button" type="submit" value="Add todo">Criar Cadastro</button>
             </fieldset>
         </form>
-        <img src="img/user.svg">
+        <img src="img/client-itau-square-image-19-jun-27-400x400.jpg">
     </section>
 
-    <script src="js/script.js"></script>    
+    <script src="js/validacaoCep.js"></script>    
     <script src="js/post.js"></script>
+    <script src="js/validacaoCpf.js"></script>
+    <script src="js/mascara.js"></script>
 </body>
 </html>

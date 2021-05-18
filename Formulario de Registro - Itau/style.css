@@ -26,11 +26,11 @@ body {
 div#parallelogram {
     margin-top: 10px;
 
-    background: #00acd7;
+    background: #EC7000;
 
     width: 1000px;
 
-    height: 870px;
+    height: 720px;
 
     max-width: 65vw;
 
@@ -60,9 +60,8 @@ section {
 }
 
 section h1{
-    padding: 10px 10px;
-
     text-align: center;
+    font-size: 1.850rem;
 }
 
 section h3{
@@ -104,7 +103,7 @@ fieldset:nth-child(9) {
 
     width: calc(100% - 20px);
 
-    height: 70px;
+    height: 60px;
 
     border: none;
 
@@ -138,7 +137,7 @@ fieldset:nth-child(9) {
 
     line-height: 70px;
 
-    top: 1px;
+    top: -7px; /* altura do texto da label */
 
     left: 20px;
 
@@ -149,22 +148,27 @@ fieldset:nth-child(9) {
     transition: 0.5s;
 }
 
+.select label {
+
+    margin-left: 10px;
+}
+
 /* ~ - Quando ocorrer o foco no input altere as propriedades do label. */
 
 .container input:focus ~ label,
 .contaniner input:valid ~ label {
     left: 20px;
-    top: -10px;
+    top: -15px;
     color: #00acd7;
 }
 
 .button {
-    margin: 10px 0;
+    margin-top: 5px;
 
     width: calc(50% - 10px);
-    height: 70px;
+    height: 60px;
 
-    background: #00acd7;
+    background: #EC7000;
     color: #fff;
     font-size: 20px;
     border: none;
@@ -176,7 +180,7 @@ fieldset:nth-child(9) {
 }
 
 button:hover{
-    opacity: 0.85;
+    opacity: 0.75;
 }
 
 section img {
@@ -189,7 +193,8 @@ section img {
 @media only screen and (max-width: 1080px) {
    
     div#parallelogram {
-        height: 850px;
+        margin-top: -1px ;
+        height: 702px;
     }
 
     section img {
